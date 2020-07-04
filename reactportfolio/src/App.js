@@ -20,14 +20,14 @@ function App() {
     <div className="Bio">
       <Bio></Bio>
     </div>
-    <div className="Contact">
-      <Contact></Contact>
-    </div>
     <div className="Skills">
       <Skills></Skills>
     </div>
     <div className="Work">
       <Work></Work>
+    </div>
+    <div className="Contact">
+      <Contact></Contact>
     </div>
     <div className="Resume">
       <Resume></Resume>

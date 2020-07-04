@@ -19,6 +19,8 @@ class Contact extends Component {
                     </ul>
                 </div>
             </Fade>
+
+            <span className='footer'>Developed With ❤ by <a href="https://thomps9012.github.io/ThompsonPortfolio/index.html">Samuel Thompson</a></span>
         </div>);
     }
 }
