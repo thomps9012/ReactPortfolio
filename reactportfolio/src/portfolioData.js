@@ -23,62 +23,43 @@ export default
        // Change Projects Here 
        projects:[
            {
-            id: 1,//DO NOT CHANGE THIS (Please)😅
-            title:'Project One', //Project Title - Add Your Project Title Here
-             service:'UI/UX Design', // Add Your Service Type Here
+            id: 1,
+            title:'Trail Tails', //Project Title - Add Your Project Title Here
+             service:'Web Application', // Add Your Service Type Here
             //Project Image - Add Your Project Image Here
-             imageSrc:"https://images.unsplash.com/photo-1558104631-0fa41a8f6c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+             imageSrc:"../public/Images/dog-1.jpg",
              //Project URL - Add Your Project Url Here
-             url:'http://chetanverma.com/'
+             url:'http://trailtails.herokuapp.com/',
+             repo: 'https://github.com/thomps9012/TrailTails'
             },
             {
                 id: 2,//DO NOT CHANGE THIS (Please)😅
-                title: 'Project Two',
-                service: 'Website Development',
-                imageSrc: "https://images.unsplash.com/photo-1554866585-cd94860890b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-                url: 'http://chetanverma.com/'
+                title: 'NoteTaker',
+                service: 'Web Application',
+                imageSrc: "../public/Images/noteMonkey.jpg",
+                url: 'https://radiant-cliffs-00329.herokuapp.com/',
+                repo: 'https://github.com/thomps9012/NoteTaker'
             },
             { 
                 id: 3,//DO NOT CHANGE THIS (Please)😅
-                title: 'Project Three',
+                title: 'Calendar',
                 service: 'Web App',
                 imageSrc: "https://images.unsplash.com/photo-1511500118080-275313ec90a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-                url: 'http://chetanverma.com/'
-            },
-            {
-                id: 4,//DO NOT CHANGE THIS (Please)😅
-                title: 'Project Four',
-                service: 'Branding',
-                imageSrc: "https://images.unsplash.com/photo-1558452919-08ae4aea8e29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-                url: 'http://chetanverma.com/'
-           }
-
-                    /*
-                    If You Want To Add More Project just Copy and Paste This At The End (Update the id Respectively)
-                ,{
-                id: 5,
-                title: 'Project Five',
-                service: 'Something Amazing',
-                imageSrc: "",
-                url: ''
+                url: 'https://thomps9012.github.io/CalendarHW/',
+                repo: 'https://github.com/thomps9012/CalendarHW'
             }
-                */
+
         ],
         social: [
-            // Add Or Remove The Link Accordingly
             {   name:'Github',
-                url:'https://github.com/chetanverma16'},
+                url:'https://github.com/thomps9012'},
             {
-                name: 'Behance',
-                url: 'https://www.behance.net/chetanverma'
+                name: 'Facebook',
+                url: 'https://www.facebook.com/samuel.thompson.16503'
             },
             {
-                name: 'Dribbble',
-                url: 'https://dribbble.com/chetanverma'
-            },
-            {
-                name: 'Instagram',
-                url: 'https://www.instagram.com/cv.uidesign/'
+                name: 'LinkedIn',
+                url: 'https://www.linkedin.com/in/samuel-joseph-thompson/'
             }
 
         ]
