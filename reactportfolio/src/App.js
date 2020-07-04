@@ -1,12 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import Header from './components/Header';
 import Bio from './components/Bio';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
-import Resume from './components/Resume';
 import Skills from './components/Skills';
 import Work from './components/Work';
 
@@ -28,9 +26,6 @@ function App() {
     </div>
     <div className="Contact">
       <Contact></Contact>
-    </div>
-    <div className="Resume">
-      <Resume></Resume>
     </div>
     </div>
   );
