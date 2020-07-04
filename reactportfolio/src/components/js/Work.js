@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Project from './Projects';
 import Fade from 'react-reveal/Fade';
-import data from '../portfolioData';
+import data from '../../portfolioData';
 import "../styles/Work.css";
 
 class Work extends Component {
