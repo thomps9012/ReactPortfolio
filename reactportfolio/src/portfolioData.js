@@ -4,8 +4,6 @@ export default
         //Change The Website Template
         name :'Samuel Thompson',
         headerTagline: [//Line 1 For Header
-                        'Do Good and Be Kind',
-                        //Line 2 For Header
                         'FullStack Web Developer',
                         //Line 3 For Header
                         'from Shaker Heights'
