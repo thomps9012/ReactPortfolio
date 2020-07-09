@@ -1,33 +1,29 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import Header from './components/js/Header';
-import Bio from './components/js/Bio';
-import Contact from './components/js/Contact';
+
+import Home from './components/pages/Home';
+import Bio from './components/pages/BioSkills';
+import Contact from './components/pages/ContactResume';
+import Projects from './components/pages/Projects';
 import Navbar from './components/js/Navbar';
-import Skills from './components/js/Skills';
-import Work from './components/js/Work';
+import Wrapper from './components/js/Wrapper';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar></Navbar>
-      <div className="App-header">
-        <Header></Header>
+    <Router>
+      <div>
+        <Navbar />
+        <Wrapper>
+          <Route exact path='/' component = {Home} />
+          <Route exact path ='/bio' component = {Bio} />
+          <Route exact path = '/contact' component = {Contact} />
+          <Route exact path = '/projects' component = {Projects} />
+        </Wrapper>
       </div>
-    <div className="Bio">
-      <Bio></Bio>
-    </div>
-    <div className="Skills">
-      <Skills></Skills>
-    </div>
-    <div className="Work">
-      <Work></Work>
-    </div>
-    <div className="Contact">
-      <Contact></Contact>
-    </div>
-    </div>
+    </Router>
+    
   );
 }
 
