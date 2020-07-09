@@ -13,12 +13,14 @@ class Projects extends Component {
                 </h1>
                 <div className='projects-content'>
                     {data.projects.map((project)=>(
-                        <Project key={project.id}
+                        <SingleProject key={project.id}
                             title={project.title}
-                            service={project.service}
+                            description={project.description}
+                            tech={project.tech}
                             imageSrc={project.imageSrc}
-                            url={project.url}>
-                        </Project>
+                            url={project.url}
+                            repo={project.repo}>
+                        </SingleProject>
                     ))}
                 </div>
             </div>

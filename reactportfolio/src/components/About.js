@@ -13,6 +13,7 @@ class About extends Component {
                     <p>{data.languages}</p>
                     <p>{data.frameworks}</p>
                 </Fade>
+                {data.ShowAboutImage ? <img src={data.aboutImage} alt='about image'></img> : null}
             </div>
         );
     }
