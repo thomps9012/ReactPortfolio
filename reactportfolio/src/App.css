@@ -386,7 +386,7 @@ nav li{
 }
 .about-content p{
   font-size: 3.5em;
-  text-align: left;
+  text-align: justify;
   width: 25em;
 }
 .about img{

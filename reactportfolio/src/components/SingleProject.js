@@ -8,7 +8,7 @@ class SingleProject extends Component {
             <Fade bottom>
                 <div className='project'>
                 <h1>{this.props.title}</h1>
-                <img src={this.props.imageSrc}></img>
+                <img src={this.props.imageSrc} alt='about image'></img>
                     <p>{this.props.description}</p>
                     <p>{this.props.tech}</p>
                     <a href={this.props.url}>Link to Deployed App</a>
