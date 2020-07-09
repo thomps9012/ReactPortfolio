@@ -10,6 +10,8 @@ export default
         ],
         //Contact Email
         contactEmail: 'thomps9012@gmail.com',
+        //contact phone
+        contactPhone: '216.970.1203',
         // Add Your About Text Here
         abouttext: "Full Stack Web Developer with experience working in a remote environment alongside individuals from a diverse set of backgrounds with client, server, database, and systems engineering experience. I enjoy learning new practices and applying them to solve novel challenges and problems that arise within the work environment. Thank you for the opportunity to bring a dedicated work ethic and commitment of excellence to your team.",
         aboutImage: './Images/BioPic.jpg',

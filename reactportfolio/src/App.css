@@ -34,17 +34,16 @@ body{
   z-index: -100;
   color:#23218d;
 }
-header{
+header p{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: left;
 }
 header h1{
-font-size: 1em;
-font-weight: 400;  
-padding: 2em;
-margin-right: 50em;
+font-size: 4em;
+position: relative;
+text-align: left;  
 }
 nav{
   position:fixed;
@@ -60,8 +59,9 @@ nav li{
 nav li .link{
   text-decoration: none;
   color: black;
-  padding:1em;
+  padding: .25em;
   opacity: 0.5;
+  font-size: 2em;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -97,27 +97,34 @@ li .link:hover{
 .header-title{
   position: relative;
   font-family: 'Montserrat', sans-serif;
-  font-size: 3em;
+  font-size: 5em;
   text-align: left;
   top:2em;
 }
 .about{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  padding: 5em;
+  margin-top:2em;
 }
 .about-content{
   position: relative;
   left:15em;
+  margin: 10px;
 }
-.about-content h1{
+.about h1{
   font-family: 'Montserrat', sans-serif;
   font-size: 5em;
+  text-align: center;
+}
+.about h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
   text-align: left;
 }
-.about-content p{
-  font-size: 1.3em;
-  text-align: left;
-  width: 37em;
+.about p{
+  font-size: 1.5em;
+  text-align: center;
 }
 .about img{
   margin-left: 5em;
@@ -126,15 +133,30 @@ li .link:hover{
   position: relative;
   display: flex;
   flex-direction: column;
-  left:15em;
+  left:5em;
   top:8em;
   align-items: flex-start;
+  padding: 15em;
 }
-.projects .heading{
+.projects h1{
   font-family: 'Montserrat', sans-serif;
   font-size: 5em;
   text-align: left;
 }
+.projects h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  text-align: center;
+}
+.projects p{
+  font-size: 1.5em;
+  text-align: center;
+}
+.projects a{
+  font-size: 1.5em;
+  text-align: center;
+}
+
 .projects .projects-content{
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -148,7 +170,7 @@ height: 30em;
 .contact{
   position: relative;
   top:20em;
-  left:15em;
+  left:5em;
   text-align: left;
 }
 .contact h1{
@@ -161,20 +183,24 @@ height: 30em;
   opacity: 1;
 }
 
-.contact .email{
+.contact p{
   color:black;
   font-size: 2em;
+  margin-left: 30em;
+  display: inline;
 }
 .contact li{
   display: inline-block;
   margin-top:0;
   margin-bottom: 0;
   margin-right: 1em;
-  margin-left: 0;
+  margin-left: 1em;
+  padding: 1em;
 }
 .contact li a{
   text-decoration: none;
   color:black;
+  font-size: 2em;
 }
 .footer{
   position: relative;

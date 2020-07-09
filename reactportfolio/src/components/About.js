@@ -7,19 +7,21 @@ class About extends Component {
     render() {
         return (
             <div className='about'>
-                <h1><Fade bottom cascade>Samuel Thompson</Fade></h1>
+                <h1><Fade bottom cascade>About:</Fade></h1>
                 <Fade bottom>
                     <p>{data.abouttext}</p>
                 </Fade>
                 <br></br>
+                <h2><Fade bottom cascade>Languages:</Fade></h2>
                 <Fade bottom>
                     <p>{data.languages}</p>
                 </Fade>
                 <br></br>
+                <h2><Fade bottom cascade>Frameworks:</Fade></h2>
                 <Fade bottom>
                     <p>{data.frameworks}</p>
                 </Fade>
-                {data.ShowAboutImage ? <img src={data.aboutImage} alt='about image'></img> : null}
+                
             </div>
         );
     }

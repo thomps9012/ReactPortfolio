@@ -16,6 +16,7 @@ class Contact extends Component {
                             Let's create<br></br>
                             <span className='amazing-color'>something awesome together!</span></h1>
                             <p>{data.contactEmail}</p>
+                            <p>{data.contactPhone}</p>
                             <ul>{data.social.map((link,index) =>(
                                 <li key={index}><a target='_blank' rel="noopener noreferrer" href={link.url}>{link.name}</a></li>
                             ))}

@@ -7,13 +7,13 @@ class SingleProject extends Component {
         return(
             <Fade bottom>
                 <div className='project'>
-                <h1>{this.props.title}</h1>
+                <h2>{this.props.title}</h2>
                 <img src={this.props.imageSrc} alt='about image'></img>
                     <p>{this.props.description}</p>
                     <p>{this.props.tech}</p>
-                    <a href={this.props.url}>Link to Deployed App</a>
+                    <a target='_blank' rel="noopener noreferrer" href={this.props.url}>Link to Deployed App</a>
                     <br></br>
-                    <a href={this.props.repo}>Link to Code Repo</a>
+                    <a target='_blank' rel="noopener noreferrer" href={this.props.repo}>Link to Code Repo</a>
                     
                     
                 </div>
