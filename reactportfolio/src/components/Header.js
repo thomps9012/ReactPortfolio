@@ -13,7 +13,7 @@ class Header extends Component {
                         <h1>
                             <Fade bottom cascade>{data.name}</Fade></h1>
                             <br></br>
-                            <img src={data.aboutImage} alt='about image'></img>
+                            <img src={data.aboutImage} class ='bioImg' alt='about image'></img>
                     </header>
                     <Fade bottom>
                         <p className='header-title'>

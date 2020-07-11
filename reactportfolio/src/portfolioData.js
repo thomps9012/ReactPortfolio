@@ -1,3 +1,8 @@
+import BioPic from "./Images/BioPic.jpg";
+import DogPic from "./Images/dog-1.jpg";
+import NotePic from "./Images/noteMonkey.jpg";
+import CalendarPic from "./Images/readmeGenerator.png";
+
 export default
     {
         //(Please Do Not Remove The comma(,) after every variable)
@@ -14,7 +19,7 @@ export default
         contactPhone: '216.970.1203',
         // Add Your About Text Here
         abouttext: "Full Stack Web Developer with experience working in a remote environment alongside individuals from a diverse set of backgrounds with client, server, database, and systems engineering experience. I enjoy learning new practices and applying them to solve novel challenges and problems that arise within the work environment. Thank you for the opportunity to bring a dedicated work ethic and commitment of excellence to your team.",
-        aboutImage: './Images/BioPic.jpg',
+        aboutImage: BioPic,
         //Skills Text
         languages: "HTML, AJAX, CSS, JavaScript, SQL, jQuery, Bootstrap, Python, Node.js, HTTP, ReST API, GitHub, Express.js, Sequelize, No SQL, MongoDB, ReactJS",
         frameworks: "Responsive Design, Object Oriented Programming, Test Driven Development, Express.js, Node Test-Driven Development, State and Props",
@@ -28,7 +33,7 @@ export default
                 description: 'A web-based application that helps users find local trails using geolocation or a typed in location. The application will return ten different hiking options based off user preferences once a selection is made the app shows weather and trail conditions.', // Add Your Service Type Here
                 //Project Image - Add Your Project Image Here
                 tech: 'Tech Stack: HTML, CSS, JSON, SQL, and API routes',
-                imageSrc: "./Images/dog-1.jpg",
+                imageSrc: DogPic,
                 //Project URL - Add Your Project Url Here
                 url: 'http://trailtails.herokuapp.com/',
                 repo: 'https://github.com/thomps9012/TrailTails'
@@ -38,7 +43,7 @@ export default
                 title: 'NoteTaker',
                 description: 'A simple note taking app that allows the user to create and delete notes in an online database.',
                 tech: 'Tech Stack: HTML, CSS, JSON, SQL, Express, and API routes',
-                imageSrc: "./Images/noteMonkey.jpg",
+                imageSrc: NotePic,
                 url: 'https://radiant-cliffs-00329.herokuapp.com/',
                 repo: 'https://github.com/thomps9012/NoteTaker'
             },
@@ -47,7 +52,7 @@ export default
                 title: 'Calendar',
                 description: 'A daily calendar application that allows users to schedule out their days from 9-5, changing colors with the hours and saving items in local storage',
                 tech: 'Tech Stack: HTML, CSS, JSON, Local Storage, and API routes',
-                imageSrc: "./Images/noteMonkey.jpg",
+                imageSrc: CalendarPic,
                 url: 'https://thomps9012.github.io/CalendarHW/',
                 repo: 'https://github.com/thomps9012/CalendarHW'
             }
