@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# React Portfolio
+This project was created using the react framework from facebook and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+![Alt text](./public/ReactPort.png?raw=true)
 
 ## Available Scripts
 
