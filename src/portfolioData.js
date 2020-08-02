@@ -2,7 +2,7 @@ import BioPic from "./Images/BioPic.jpg";
 import DogPic from "./Images/dog-1.jpg";
 import NotePic from "./Images/noteMonkey.jpg";
 import CalendarPic from "./Images/readmeGenerator.png";
-import Peoplespurse from "./Images/peopespurse.png";
+import Peoplespurse from "./Images/peoplespurse.png";
 
 export default
     {
