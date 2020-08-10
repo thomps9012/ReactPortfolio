@@ -36,7 +36,6 @@ export default
                 tech: 'Tech Stack: React/JSX, CSS/SCSS, Node, Express, Axios APIs (USAspending), React Chart.js, Sequelize, MySQL DB, Github',
                 imageSrc: Peoplespurse,
                 //Project URL - Add Your Project Url Here
-                url: 'Can be hosted locally',
                 repo: 'https://github.com/evigliucci/final-project'
             },
             {
