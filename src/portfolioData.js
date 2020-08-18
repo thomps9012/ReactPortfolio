@@ -30,12 +30,13 @@ export default
         projects: [
             {
                 id: 1,
-                title: 'The Peoples Purse', 
+                title: "The People's Purse", 
                 description: 'A MERN stack, non-profit application dedicated to collecting data about how individuals would spend their tax dollars. The app features an educational component about the governments different departments in addition to a data visualization piece.', // Add Your Service Type Here
                 //Project Image - Add Your Project Image Here
                 tech: 'Tech Stack: React/JSX, CSS/SCSS, Node, Express, Axios APIs (USAspending), React Chart.js, Sequelize, MySQL DB, Github',
                 imageSrc: Peoplespurse,
                 //Project URL - Add Your Project Url Here
+                url: '',
                 repo: 'https://github.com/evigliucci/final-project'
             },
             {
