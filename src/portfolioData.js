@@ -36,7 +36,7 @@ export default
                 tech: 'Tech Stack: React/JSX, CSS/SCSS, Node, Express, Axios APIs (USAspending), React Chart.js, Sequelize, MySQL DB, Github',
                 imageSrc: Peoplespurse,
                 //Project URL - Add Your Project Url Here
-                url: '',
+                url: 'https://secret-hollows-25957.herokuapp.com/',
                 repo: 'https://github.com/evigliucci/final-project'
             },
             {
