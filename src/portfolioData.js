@@ -3,6 +3,7 @@ import DogPic from "./Images/dog-1.jpg";
 import NotePic from "./Images/noteMonkey.jpg";
 import CalendarPic from "./Images/readmeGenerator.png";
 import Peoplespurse from "./Images/peoplespurse.png";
+import NBAPic from "./Images/nba-logo.jpg"
 
 export default
     {
@@ -68,18 +69,18 @@ export default
                 url: 'https://thomps9012.github.io/CalendarHW/',
                 repo: 'https://github.com/thomps9012/CalendarHW'
             },
-            {
-                id: 5,
-                title: "NBA Player Stats", 
-                description: 'A simple node.js application that uses sequelize and api calls to give the user random statistics for an NBA player, or stats for all NBA players. The model uses 538 RAPTOR scores which are explained on the third link below.', // Add Your Service Type Here
-                //Project Image - Add Your Project Image Here
-                tech: 'Tech Stack: HTML, CSS/SCSS, Node, Express, Sequelize, MySQL DB, Github',
-                imageSrc: Peoplespurse,
-                //Project URL - Add Your Project Url Here
-                url: 'https://immense-inlet-28745.herokuapp.com/',
-                repo: 'https://github.com/thomps9012/nbaStats',
-                link: 'https://fivethirtyeight.com/features/introducing-raptor-our-new-metric-for-the-modern-nba/'
-            }
+            // {
+            //     id: 5,
+            //     title: "NBA Player Stats", 
+            //     description: 'A simple node.js application that uses sequelize and api calls to give the user random statistics for an NBA player, or stats for all NBA players. The model uses 538 RAPTOR scores which are explained on the third link below.', // Add Your Service Type Here
+            //     //Project Image - Add Your Project Image Here
+            //     tech: 'Tech Stack: HTML, CSS/SCSS, Node, Express, Sequelize, MySQL DB, Github',
+            //     imageSrc: NBAPic,
+            //     //Project URL - Add Your Project Url Here
+            //     url: 'https://immense-inlet-28745.herokuapp.com/',
+            //     repo: 'https://github.com/thomps9012/nbaStats',
+            //     link: 'https://fivethirtyeight.com/features/introducing-raptor-our-new-metric-for-the-modern-nba/'
+            // }
 
         ],
         social: [
