@@ -32,8 +32,8 @@ export default
         projects: [
             {
                 id: 1,
-                title: "The People's Purse", 
-                description: '•	A simple quiz created using React.js that has the user answer questions and returns which character from Lord of the Rings they are by using state and props', // Add Your Service Type Here
+                title: "Lord of the Rings Character Quiz", 
+                description: 'A simple React quiz in which a user answer questions and returns which character from Lord of the Rings they are by using state and props', // Add Your Service Type Here
                 //Project Image - Add Your Project Image Here
                 tech: 'Tech Stack: React/JSX, CSS/SCSS, Github',
                 imageSrc: LoTR,
