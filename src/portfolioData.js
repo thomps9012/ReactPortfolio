@@ -3,7 +3,8 @@ import DogPic from "./Images/dog-1.jpg";
 import NotePic from "./Images/noteMonkey.jpg";
 import CalendarPic from "./Images/readmeGenerator.png";
 import Peoplespurse from "./Images/peoplespurse.png";
-import NBAPic from "./Images/nba-logo.jpg"
+import NBAPic from "./Images/nba-logo.jpg";
+import LoTR from "./Images/LoTR.png";
 
 export default
     {
@@ -32,16 +33,27 @@ export default
             {
                 id: 1,
                 title: "The People's Purse", 
+                description: '•	A simple quiz created using React.js that has the user answer questions and returns which character from Lord of the Rings they are by using state and props', // Add Your Service Type Here
+                //Project Image - Add Your Project Image Here
+                tech: 'Tech Stack: React/JSX, CSS/SCSS, Github',
+                imageSrc: LoTR,
+                //Project URL - Add Your Project Url Here
+                url: 'https://desolate-cliffs-82009.herokuapp.com/',
+                repo: 'https://github.com/thomps9012/lotrquiz'
+            },
+            {
+                id: 2,
+                title: "The People's Purse", 
                 description: 'A MERN stack, non-profit application dedicated to collecting data about how individuals would spend their tax dollars. The app features an educational component about the governments different departments in addition to a data visualization piece.', // Add Your Service Type Here
                 //Project Image - Add Your Project Image Here
                 tech: 'Tech Stack: React/JSX, CSS/SCSS, Node, Express, Axios APIs (USAspending), React Chart.js, Sequelize, MySQL DB, Github',
                 imageSrc: Peoplespurse,
                 //Project URL - Add Your Project Url Here
-                url: 'https://secret-hollows-25957.herokuapp.com/',
-                repo: 'https://github.com/evigliucci/final-project'
+                // url: 'https://secret-hollows-25957.herokuapp.com/',
+                repo: 'https://github.com/thomps9012/thepeoplespurse'
             },
             {
-                id: 2,
+                id: 3,
                 title: 'Trail Tails', //Project Title - Add Your Project Title Here
                 description: 'A web-based application that helps users find local trails using geolocation or a typed in location. The application will return ten different hiking options based off user preferences once a selection is made the app shows weather and trail conditions.', // Add Your Service Type Here
                 //Project Image - Add Your Project Image Here
@@ -52,7 +64,7 @@ export default
                 repo: 'https://github.com/thomps9012/TrailTails'
             },
             {
-                id: 3,//DO NOT CHANGE THIS (Please)😅
+                id: 4,//DO NOT CHANGE THIS (Please)😅
                 title: 'NoteTaker',
                 description: 'A simple note taking app that allows the user to create and delete notes in an online database.',
                 tech: 'Tech Stack: HTML, CSS, JSON, SQL, Express, and API routes',
@@ -61,7 +73,7 @@ export default
                 repo: 'https://github.com/thomps9012/NoteTaker'
             },
             {
-                id: 4,//DO NOT CHANGE THIS (Please)😅
+                id: 5,//DO NOT CHANGE THIS (Please)😅
                 title: 'Calendar',
                 description: 'A daily calendar application that allows users to schedule out their days from 9-5, changing colors with the hours and saving items in local storage',
                 tech: 'Tech Stack: HTML, CSS, JSON, Local Storage, and API routes',
@@ -70,14 +82,14 @@ export default
                 repo: 'https://github.com/thomps9012/CalendarHW'
             },
             {
-                id: 5,
+                id: 6,
                 title: "NBA Player Stats", 
                 description: 'A simple node.js application that uses sequelize and api calls to give the user random statistics for an NBA player, or stats for all NBA players. The model uses 538 RAPTOR scores which is explained here https://fivethirtyeight.com/features/introducing-raptor-our-new-metric-for-the-modern-nba/', // Add Your Service Type Here
                 //Project Image - Add Your Project Image Here
                 tech: 'Tech Stack: HTML, CSS/SCSS, Node, Express, Sequelize, MySQL DB, Github',
                 imageSrc: NBAPic,
                 //Project URL - Add Your Project Url Here
-                url: 'https://immense-inlet-28745.herokuapp.com/',
+                // url: 'https://immense-inlet-28745.herokuapp.com/',
                 repo: 'https://github.com/thomps9012/nbaStats'
             }
 
