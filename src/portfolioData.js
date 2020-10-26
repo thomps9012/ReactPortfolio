@@ -15,7 +15,7 @@ export default
         headerTagline: [//Line 1 For Header
             'FullStack Web Developer',
             //Line 3 For Header
-            'from the Greater Cleveland Area'
+            'from Cleveland'
         ],
         //Contact Email
         contactEmail: 'thomps9012@gmail.com',
