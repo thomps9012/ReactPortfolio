@@ -15,7 +15,7 @@ export default
         headerTagline: [//Line 1 For Header
             'FullStack Web Developer',
             //Line 3 For Header
-            'from Shaker Heights'
+            'from the Greater Cleveland Area'
         ],
         //Contact Email
         contactEmail: 'thomps9012@gmail.com',
@@ -96,7 +96,7 @@ export default
             {
                 id: 7,
                 title: "Exercise Log and Tracker", 
-                description: 'An exercise log that uses react and firebase to track, edit, and store a digital log of climbing specific exercises.', // Add Your Service Type Here
+                description: 'An exercise application that uses react and firebase to track, edit, and store a digital log of exercises for an individual.', // Add Your Service Type Here
                 //Project Image - Add Your Project Image Here
                 tech: 'Tech Stack: HTML, CSS/SCSS, Node, Express, React, Amazon Firebase, Github',
                 imageSrc: ExerciseLogPic,
