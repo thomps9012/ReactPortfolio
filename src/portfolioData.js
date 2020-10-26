@@ -5,6 +5,7 @@ import CalendarPic from "./Images/readmeGenerator.png";
 import Peoplespurse from "./Images/peoplespurse.png";
 import NBAPic from "./Images/nba-logo.jpg";
 import LoTR from "./Images/LoTR.png";
+import ExerciseLogPic from "./Images/ExerciseLog.png";
 
 export default
     {
@@ -49,7 +50,7 @@ export default
                 tech: 'Tech Stack: React/JSX, CSS/SCSS, Node, Express, Axios APIs (USAspending), React Chart.js, Sequelize, MySQL DB, Github',
                 imageSrc: Peoplespurse,
                 //Project URL - Add Your Project Url Here
-                // url: 'https://secret-hollows-25957.herokuapp.com/',
+                url: 'https://secret-hollows-25957.herokuapp.com/',
                 repo: 'https://github.com/thomps9012/thepeoplespurse'
             },
             {
@@ -89,8 +90,19 @@ export default
                 tech: 'Tech Stack: HTML, CSS/SCSS, Node, Express, Sequelize, MySQL DB, Github',
                 imageSrc: NBAPic,
                 //Project URL - Add Your Project Url Here
-                // url: 'https://immense-inlet-28745.herokuapp.com/',
+                url: 'https://immense-inlet-28745.herokuapp.com/',
                 repo: 'https://github.com/thomps9012/nbaStats'
+            },
+            {
+                id: 7,
+                title: "Exercise Log and Tracker", 
+                description: 'An exercise log that uses react and firebase to track, edit, and store a digital log of climbing specific exercises.', // Add Your Service Type Here
+                //Project Image - Add Your Project Image Here
+                tech: 'Tech Stack: HTML, CSS/SCSS, Node, Express, React, Amazon Firebase, Github',
+                imageSrc: ExerciseLogPic,
+                //Project URL - Add Your Project Url Here
+                url: 'https://floating-ridge-18187.herokuapp.com/',
+                repo: 'https://github.com/thomps9012/ExerciseLog'
             }
 
         ],
