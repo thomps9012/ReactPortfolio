@@ -123,7 +123,7 @@ li .link:hover{
 }
 .about-content{
   position: relative;
-  left:15em;
+  /* left:15em; */
   margin: 10px;
 }
 .about h1{
@@ -184,7 +184,7 @@ height: 30em;
 .contact{
   position: relative;
   top:20em;
-  left:5em;
+  /* left:5em; */
   text-align: left;
 }
 .contact h1{
