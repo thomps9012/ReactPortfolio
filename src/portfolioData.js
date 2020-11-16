@@ -7,6 +7,7 @@ import NBAPic from "./Images/nba-logo.jpg";
 import LoTR from "./Images/LoTR.png";
 import ExerciseLogPic from "./Images/ExerciseLog.png";
 import magellan from './Images/magellan.jpg';
+import desert1 from './Images/desert1.jpg';
 
 export default
     {
@@ -116,6 +117,17 @@ export default
                 url: 'https://immense-inlet-28745.herokuapp.com/',
                 repo: 'https://github.com/thomps9012/nbaStats'
             },
+            {
+                id: 9,
+                title: "React Countdown Timer", 
+                description: 'A simple react based component application that starts a countdown at three minutes and displays an alert once the countdown is complete.', // Add Your Service Type Here
+                //Project Image - Add Your Project Image Here
+                tech: 'Tech Stack: HTML, CSS/SCSS, React.js, Github',
+                imageSrc: desert1,
+                //Project URL - Add Your Project Url Here
+                url: 'https://quiet-castle-44791.herokuapp.com/',
+                repo: 'https://github.com/thomps9012/CountdownTimer'
+            }
             
 
         ],
