@@ -8,6 +8,7 @@ import LoTR from "./Images/LoTR.png";
 import ExerciseLogPic from "./Images/ExerciseLog.png";
 import magellan from './Images/magellan.jpg';
 import desert1 from './Images/desert1.jpg';
+import highway from './Images/highway.jpg';
 
 export default
     {
@@ -90,7 +91,7 @@ export default
                 description: 'A simple react based application that generates a random positive quote and author from a static database.', // Add Your Service Type Here
                 //Project Image - Add Your Project Image Here
                 tech: 'Tech Stack: HTML, CSS, React, Heroku, Github',
-                imageSrc: magellan,
+                imageSrc: highway,
                 //Project URL - Add Your Project Url Here
                 url: 'https://young-sierra-16388.herokuapp.com/',
                 repo: 'https://github.com/thomps9012/PositiveQuotes'
@@ -127,6 +128,17 @@ export default
                 //Project URL - Add Your Project Url Here
                 url: 'https://quiet-castle-44791.herokuapp.com/',
                 repo: 'https://github.com/thomps9012/CountdownTimer'
+            },
+            {
+                id: 10,
+                title: "NASA Photo of the Day App", 
+                description: 'A simple react based application that displays an image of the day from the National Aeronautics and Space Administration. The image is displayed alongside a short description that ', // Add Your Service Type Here
+                //Project Image - Add Your Project Image Here
+                tech: 'Tech Stack: HTML, CSS/SCSS, React.js, Github, API call, State and Props',
+                imageSrc: magellan,
+                //Project URL - Add Your Project Url Here
+                url: 'https://peaceful-ridge-12531.herokuapp.com/',
+                repo: 'https://github.com/thomps9012/NASApicApp'
             }
             
 
