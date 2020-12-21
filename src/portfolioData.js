@@ -128,7 +128,7 @@ export default
                 //Project URL - Add Your Project Url Here
                 url: 'https://young-sierra-16388.herokuapp.com/',
                 repo: 'https://github.com/thomps9012/PositiveQuotes'
-            // },
+            },
             // {
             //     id: 10,
             //     title: "NBA Player Stats", 
