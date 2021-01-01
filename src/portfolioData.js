@@ -42,7 +42,7 @@ export default
                 tech: 'Tech Stack: React/JSX, CSS/SCSS, Node, Express, Axios APIs (USAspending), React Chart.js, Sequelize, MySQL DB, Github',
                 imageSrc: Peoplespurse,
                 //Project URL - Add Your Project Url Here
-                url: 'https://secret-hollows-25957.herokuapp.com/',
+                url: 'https://peoplespurse.herokuapp.com/',
                 repo: 'https://github.com/thomps9012/thepeoplespurse'
             },
             {
@@ -64,7 +64,7 @@ export default
                 tech: 'Tech Stack: React/JSX, CSS/SCSS, Github',
                 imageSrc: LoTR,
                 //Project URL - Add Your Project Url Here
-                url: 'https://desolate-cliffs-82009.herokuapp.com/',
+                url: 'https://lotrquiz.herokuapp.com/',
                 repo: 'https://github.com/thomps9012/lotrquiz'
             },
             {
