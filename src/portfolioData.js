@@ -28,7 +28,7 @@ export default
         abouttext: "Full Stack Web Developer with experience working in a remote environment alongside individuals from a diverse set of backgrounds with client, server, database, and systems engineering experience. I enjoy learning new practices and applying them to solve novel challenges and problems that arise within the work environment. Thank you for the opportunity to bring a dedicated work ethic and commitment of excellence to your team.",
         aboutImage: BioPic,
         //Skills Text
-        languages: "HTML, AJAX, CSS, JavaScript, SQL, jQuery, Bootstrap, Python, Node.js, HTTP, ReST API, GitHub, Express.js, Sequelize, No SQL, MongoDB, React, JSX, React Chart.js, Google Fonts",
+        languages: "HTML, AJAX, CSS, JavaScript, SQL, jQuery, Bootstrap, Node.js, HTTP, ReST API, GitHub, Express.js, Sequelize, No SQL, React, JSX, Google Fonts",
         frameworks: "Responsive Design, Object Oriented Programming, Test Driven Development, Node Test-Driven Development, Data Manipulation, Server-Data Connections, State and Prop Components",
         //Change This To Hide The Image of About Section (True Or False)
         ShowAboutImage: true,//true or false (Change Here)
